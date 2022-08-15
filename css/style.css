@@ -1,3 +1,10 @@
+body{
+    background: radial-gradient(var(--cor-aqua1), var(--steam-2));
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
 header{
     max-width: 100%;
     display: flex;
@@ -35,8 +42,21 @@ header nav span a{
     --cor-sete: #ff8880;
     --cor-primaria: #dffff7;
     --cor-sequndaria: #454e4c;
+    --play: #00439c;
+    --xbox: #107c10;
+    --nintendo: #e70012;
+    --steam-1: #1b334f;
+    --steam-2: #1e2f4d;
+    --epic: #121212;
+    --origin: #edf1f2;
+    --prime: #3a2e5c;
+    --ubisoft: #e5e8f1;
+    --battle1: #30587d;
+    --battle2: #1a2e49;
     --fonte: Copperplate, "Copperplate Gothic Light";
 }
+/*Cores de fundo*/
+/*Menu DropDown*/
 .dp-menu ul{
     list-style-type: none;
     padding: 0;
@@ -132,6 +152,11 @@ main h4 a {
     flex-wrap: wrap;
     justify-content: center;*/
 }
+.item-card2{
+    text-decoration: none;
+    color: var(--cor-primaria);
+    margin: 8px;
+}
 .item5{
     display: grid;
     grid-template-columns: auto;
@@ -144,12 +169,62 @@ main h4 a {
     grid-column-start: 3;
     grid-column-end: 4;
 }
+/*Cores dos Cards*/
+.pcs{
+    background: linear-gradient(to right, var(--steam-1), var(--epic), var(--prime), var(--battle2));
+}
+.console{
+    background: linear-gradient(to right, var(--nintendo), var(--play), var(--xbox));
+}
+.xbox{
+    background-color: var(--xbox);
+}
+.play{
+    background-color: var(--play);
+}
+.nintendo{
+    background-color: var(--nintendo);
+}
+.steam{
+    background: radial-gradient(var(--steam-1), var(--steam-2));
+}
+.epic{
+    background-color: var(--epic);
+}
+.origin{
+    background-color: var(--origin);
+}
+.prime{
+    background-color: var(--prime);
+}
+.ubisoft{
+    background-color: var(--ubisoft);
+}
+.battle{
+    background: radial-gradient(var(--battle1), var(--battle2));
+}
 /*RodaPé*/
+.rodapé{
+    
+    font-family: var(--fonte);
+    background-color: var(--cor-sequndaria);
+    color: var(--cor-primaria);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
 footer{
     font-family: var(--fonte);
     background-color: var(--cor-sequndaria);
     color: var(--cor-primaria);
-    height: 80px;
+    position: static;
+    bottom: 0;
+    left: 0;
+    width: 100%;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -163,5 +238,5 @@ footer div a{
 footer div a:hover{
     font-size: 30px;
     transition: .6s;
-    color: var(--cor-azul3);
+    color: var(--cor-aqua2);
 }
