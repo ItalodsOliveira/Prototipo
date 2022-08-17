@@ -1,9 +1,55 @@
+@media(max-width: 768px){
+    .main{
+        display: block !important;
+    }
+    .imgconsole{
+        width: 450px;
+        height: 180px;
+    }
+    .card-container{
+        display: block !important;
+    }
+    main div img{
+        width: 490px;
+        height: 210px;
+    }
+}
+@media(max-width: 1040px){
+    .main{
+        display: block !important;
+        flex-wrap: wrap;
+        
+    }
+    .card{
+        width: 99% !important;
+    }
+    main div img{
+        width: 490px;
+        height: 210px;
+    }
+}
+@media(max-width: 1200px){
+    .main{
+        display: flex !important;
+    }
+    .card{
+        width: 99% !important;
+    }
+    .media-p{
+        display: block !important;
+    }
+    main div img{
+        width: 490px;
+        height: 210px;
+    }
+}
 body{
     background: radial-gradient(var(--cor-aqua1), var(--steam-2));
     height: 100%;
     margin: 0;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    display: block;
 }
 header{
     max-width: 100%;
