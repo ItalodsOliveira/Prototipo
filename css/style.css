@@ -35,6 +35,10 @@
     .card{
         width: 99% !important;
     }
+    .card-container{
+        display: grid !important;
+        grid-template-columns: auto auto !important;
+    }
     .media-p{
         display: block !important;
     }
@@ -49,7 +53,6 @@ body{
     margin: 0;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    display: block;
 }
 header{
     max-width: 100%;
@@ -122,6 +125,7 @@ header nav span a{
 }
 .dp-menu ul li a:hover{
     color: var(--cor-sequndaria);
+    transition: all .6s;
 }
 .dp-menu ul li:hover{
     background-color: var(--cor-aqua2);
@@ -138,6 +142,7 @@ header nav span a{
 .dp-menu ul li:hover ul{
     display: block;
     color: var(--cor-sequndaria);
+    transition: all .6s;
 }
 .dp-menu ul li ul li:hover a{
     background-color: var(--cor-aqua2);
@@ -248,6 +253,61 @@ main h4 a {
 }
 .battle{
     background: radial-gradient(var(--battle1), var(--battle2));
+}
+/*Formulário*/
+.formulario div{
+    margin: 15px;
+    display: block;
+}
+.formulario{
+    display: block;
+    justify-content: center;
+    margin-top: 5%;
+    margin-left: 35%;
+    color: var(--cor-sequndaria);
+    font-family: var(--fonte);
+    font-size: 20px;
+}
+.formulario select{
+    height: 30px;
+    width: 450px;
+    color: var(--cor-sequndaria);
+    font-family: var(--fonte);
+    font-size: large;
+    display: flex;
+}
+.formulario input{
+    height: 30px;
+    width: 400px;
+    color: var(--cor-sequndaria);
+    font-family: var(--fonte);
+    font-size: large;
+    display: flex;
+}
+.formulario textarea{
+    height: 100px;
+    width: 600px;
+    font: var(--fonte);
+    font-size: large;
+    display: flex;
+}
+.formulario button{
+    margin-top: 40px;
+    margin-left: 20%;
+    height: 50px;
+    width: 150px;
+    background-color: var(--battle1);
+    border-radius: 1.2rem;
+    font: var(--fonte);
+    color: var(--cor-primaria);
+}
+.formulario button:hover{
+    cursor: pointer;
+    background-color: var(--cor-aqua2);
+    color: var(--cor-sequndaria);
+    height: 60px;
+    width: 160px;
+    transition: all .6s;
 }
 /*RodaPé*/
 .rodapé{
