@@ -1,0 +1,62 @@
+/*Cores*/
+:root{
+    --cor-vermelho1: #ff1f3d;
+    --cor-vermelho2: #ff3751;
+    --cor-azul1: #352eff;
+    --cor-azul2: #2b4dff;
+    --cor-azul3: #6a66ff;
+    --cor-amarelo1: #ffd552;
+    --cor-amarelo2: #fce56f;
+    --cor-aqua1: #6bffd8;
+    --cor-aqua2: #59ffd8;
+    --cor-sete: #ff8880;
+    --cor-primaria: #dffff7;
+    --cor-sequndaria: #454e4c;
+    --play: #00439c;
+    --xbox: #107c10;
+    --nintendo: #e70012;
+    --steam-1: #1b334f;
+    --steam-2: #1e2f4d;
+    --epic: #121212;
+    --origin: #edf1f2;
+    --prime: #3a2e5c;
+    --ubisoft: #e5e8f1;
+    --battle1: #30587d;
+    --battle2: #1a2e49;
+    --fonte: Copperplate, "Copperplate Gothic Light";
+}
+.esconder{
+    display: none;
+}
+/* ChatBot */
+.container_Bot{
+    font-size: xx-large;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    width: 80%;
+    height: 70vh;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    background-color: var(--cor-primaria);
+    border: 1px solid var(--cor-sete);
+}
+input{
+    width: 79.5vw;
+    height: 5vh;
+    margin-top: 75vh;
+}
+#boot i{
+    left: 88.9vw;
+    position: fixed;
+    z-index: 2;
+    background-color: var(--nintendo);
+    border-radius: 49%;
+    font-size: xx-large;
+    margin-top: 2vh;
+}
+.body_bot{
+    background-color:  rgba(0, 0, 0, 0.668);
+}

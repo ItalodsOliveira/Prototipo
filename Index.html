@@ -34,7 +34,7 @@
         </nav>
     </header>
     <main class="main">
-        <div>
+        <div id="principal">
             <div class="card"><a class="item-card2" href="">
                 <img src="img/Indicações.png" alt="">
                 <div class="container">
@@ -45,7 +45,7 @@
                 </div>
             </a></div>
         </div>
-        <div>
+        <div id="principal1">
             <div class="card"><a class="item-card2" href="Promoções.html">
                 <img src="img/Promoção.png" alt="">
                 <div class="container">
@@ -56,6 +56,10 @@
                 </div>
             </a></div>
         </div>
+        <div id="bot" class="esconder" >
+            <i onclick="Sair_Bot1(); return false;" class="bi bi-x-circle"></i>
+            <iframe id="framebot" src="bot.html" frameborder="0"></iframe>
+        </div>
     </main>
     <footer class="rodapé">
         <p>Todos os direitos reservados @2022</p>
@@ -64,6 +68,7 @@
             <a target="_blank" href="https://github.com/ItalodsOliveira/Prototipo"><i class="bi bi-github"></i></a>
             <a target="_blank" href=""><i class="bi bi-facebook"></i></a>
         </div>
+        <button onclick="BotFrame()">ISO_Bot</button>
     </footer>
 </body>
 </html>

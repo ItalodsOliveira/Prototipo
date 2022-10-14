@@ -346,3 +346,34 @@ footer div a:hover{
     transition: .6s;
     color: var(--cor-aqua2);
 }
+.esconder{
+    display: none;
+    transition: all 1s;
+}
+iframe{
+    height: 80vh;
+    width: 90vw;
+}
+button{
+    width: 200px;
+    height: 50px;
+    background-color: var(--battle2);
+    border-radius: 2rem;
+    color: var(--cor-primaria);
+}
+button:hover{
+    width: 200px;
+    background: radial-gradient(var(--cor-amarelo1), var(--cor-aqua2));
+    height: 50px;
+    border-radius: 2rem;
+    color: var(--cor-primaria);
+}
+#bot i{
+    left: 93.7vw;
+    position: fixed;
+    z-index: 2;
+    background-color: var(--nintendo);
+    border-radius: 50%;
+    font-size: xx-large;
+    margin-top: -1.9vh;
+}
